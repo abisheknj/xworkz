@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+    @apply font-sans; /* This applies the sans-serif font to the entire app */
+  }
