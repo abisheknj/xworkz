@@ -7,7 +7,8 @@ import { Courses } from './pages/Courses';
 import { Home } from './pages/Home';
 import { Softwares } from './pages/Softwares';
 import { Direction } from './pages/Direction';
-import NavBar from './components/Navbar';
+import NavBar from './components/NavBar';
+
 
 
 export default function App() {
@@ -18,7 +19,7 @@ export default function App() {
   return (
     <div>
       <BrowserRouter>
-        <NavBar />
+      <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/courses" element={<Courses />} />
