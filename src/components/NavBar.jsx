@@ -108,7 +108,7 @@ export default function NavBar() {
                     {regularMenuItems.map((item, index) => (
                         <NavbarMenuItem key={index}>
                             <Link
-                                color={index === 2 ? "primary" : index === regularMenuItems.length - 1 ? "danger" : "foreground"}
+                                
                                 className="w-full"
                                 href={item.href}
                                 size="lg"
